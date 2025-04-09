@@ -2,7 +2,7 @@ import { type RsbuildPlugin, logger } from '@rsbuild/core';
 import { log } from '@clack/prompts';
 import color from 'picocolors';
 import {  } from "module";
-import { createTemplateFile } from './utils/generateLogfile.js';
+import { createTemplateFile } from './generateLogfile.js';
 
 const console = {
     ...log,

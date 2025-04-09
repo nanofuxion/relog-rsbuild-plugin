@@ -10,5 +10,5 @@
     "skipLibCheck": true,
     "strict": true
   },
-  "include": ["index.ts", "utils/generateLogfile.ts"]
+  "include": ["index.ts", "generateLogfile.ts"]
 }

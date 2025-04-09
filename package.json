@@ -2,22 +2,22 @@
   "name": "relog-rsbuild-plugin",
   "type": "module",
   "module": "dist/index.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "exports": {
     ".": {
       "import": "./dist/index.js",
       "types": "./dist/types/index.d.ts"
     },
     "./console": {
-      "import": "./dist/utils/console.js"
+      "import": "./dist/console.js"
     },
     "./generateLogfile": {
-      "import": "./dist/utils/generateLogfile.js",
-      "types": "./dist/types/utils/generateLogfile.d.ts"
+      "import": "./dist/generateLogfile.js",
+      "types": "./dist/types/generateLogfile.d.ts"
     }
   },
   "types": "dist/types/index.d.ts",
-  "files": ["dist", "utils"],
+  "files": ["dist"],
   "scripts": {
     "build": "tsc"
   },
