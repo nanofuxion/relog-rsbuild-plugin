@@ -3,7 +3,7 @@
     (() => {
         'background only';
         if(!globalThis.Request) return;
-        const request = new Request("https://f283-2601-58b-c581-e140-522-3674-ceb6-46b3.ngrok-free.app");
+        const request = new Request("https://sadsadadasd.ngrok-free.app");
         // const request = "/log";
     
         globalThis.console.log = (...message) => {
