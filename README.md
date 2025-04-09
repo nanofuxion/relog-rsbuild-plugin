@@ -62,7 +62,7 @@ This plugin will generate a file called `console.js` in the same directory as th
 You should load this file into your app's entry point (or however your framework handles native-side injection of JavaScript code).
 
 ```js
-import './path-to-plugin/console.js';
+import 'relog-rsbuild-plugin/console.js';
 ```
 
 > This script overrides `console.log` and `console.info` globally to forward logs to the dev server.
